@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ Security Operations Management System
 
-## Getting Started
+A full-stack security management platform designed for guards and supervisors to handle incidents, visitor tracking, patrol logs, shift management, and more.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📋 Project Features Checklist
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✅ Authentication & User Roles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [ ] User registration and login.
+- [ ] Password hashing (bcrypt).
+- [ ] JWT-based authentication.
+- [ ] Role-based access: `Guard` and `Supervisor`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 🚨 Incident Reporting
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] Incident creation form (Type, Location, Description, Photo Upload).
+- [ ] View incident history (list and filter by status, date, type).
+- [ ] Supervisor status management: `Open → Under Review → Resolved`.
+- [ ] Export incident reports (PDF or CSV).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🧑‍💼 Visitor Management
 
-## Deploy on Vercel
+- [ ] Visitor entry form (Name, ID, Purpose, Time).
+- [ ] Log visitor check-in/check-out.
+- [ ] Filter visitors by date or name.
+- [ ] Export visitor logs.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🕒 Shift Scheduling & Check-In
+
+- [ ] Supervisor assigns shifts (calendar view).
+- [ ] Guard shift check-in / check-out.
+- [ ] Missed or late check-in alerts for supervisors.
+- [ ] Shift history logs and filtering.
+
+---
+
+### 🧭 Patrol Route Logging
+
+- [ ] Log checkpoints manually or via QR scan.
+- [ ] Track patrol timestamp and location.
+- [ ] Supervisor view for completed and missed patrols.
+- [ ] Export patrol route history.
+- [ ] Interactive map, click on paths.
+
+---
+
+### 🎒 Lost & Found Log
+
+- [ ] Guards submit lost or found item reports.
+- [ ] Match found items with lost reports.
+- [ ] Item status management: `Unclaimed → Claimed`.
+- [ ] Supervisor overview panel.
+
+---
+
+### 🔐 Access Control Logs
+
+- [ ] Log simulated badge scans (Access Granted/Denied).
+- [ ] Sort and filter access logs by time, user, and location
