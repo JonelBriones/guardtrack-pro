@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "site_001",
+    "siteName": "Downtown Office Tower",
+    "location": "123 Main Street, Los Angeles, CA",
+    "officers": [
+      {
+        "id": "officer_001",
+        "name": "John Supervisor",
+        "role": "supervisor"
+      },
+      {
+        "id": "officer_002",
+        "name": "Emily Daylead",
+        "role": "lead",
+        "shift": "Day"
+      },
+      {
+        "id": "officer_003",
+        "name": "Mark Swinglead",
+        "role": "lead",
+        "shift": "Swing"
+      },
+      {
+        "id": "officer_004",
+        "name": "Nina Nightlead",
+        "role": "lead",
+        "shift": "Night"
+      },
+      {
+        "id": "officer_005",
+        "name": "Jake Guard",
+        "role": "officer"
+      },
+      {
+        "id": "officer_006",
+        "name": "Lara Patrol",
+        "role": "officer"
+      },
+      {
+        "id": "officer_007",
+        "name": "Tom Flex",
+        "role": "flex"
+      }
+    ]
+  }
+]

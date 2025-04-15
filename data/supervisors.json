@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "officer_002",
+    "name": "Emily Daylead",
+    "role": "Lead Officer",
+    "assignedSite": "site_001",
+    "shift": "Day",
+    "phoneNumber": "+15551234567",
+    "email": "emily.daylead@company.com",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  }
+]

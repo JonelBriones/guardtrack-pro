@@ -40,6 +40,42 @@ A full-stack security management platform designed for guards and supervisors to
 - [ ] Missed or late check-in alerts for supervisors.
 - [ ] Shift history logs and filtering.
 
+🧠 Core Features for the Scheduling Module
+Officer Database
+
+Name, Phone, Email, Badge Number.
+
+Assigned Site or Flex.
+
+Availability preferences.
+
+Site-Based Scheduling
+
+Assign guards to specific posts.
+
+Flex pool for short notice replacements.
+
+Drag & drop weekly or monthly calendar view.
+
+Shift Notification via SMS
+
+When a shift gap happens, send a text:
+“Hi [Name], are you available for a shift today 3PM–11PM at [Site Name]? Position: Front Desk.”
+
+Officer Schedule Links
+
+Officers receive a secure, unique link to view their own schedule.
+
+Option to export or download a PDF for the office.
+
+Supervisor View
+
+Real-time updates on shift confirmations.
+
+See who has acknowledged the shift.
+
+List of unfilled posts and open gaps.
+
 ---
 
 ### 🧭 Patrol Route Logging

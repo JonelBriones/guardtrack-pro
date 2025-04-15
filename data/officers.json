@@ -1,0 +1,77 @@
+[
+  {
+    "id": "officer_001",
+    "name": "Alice Johnson",
+    "role": "lead",
+    "shift": "Day",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  },
+  {
+    "id": "officer_002",
+    "name": "Brian Lee",
+    "role": "officer",
+    "shift": "Day",
+    "availability": ["Saturday", "Sunday"]
+  },
+  {
+    "id": "officer_003",
+    "name": "Clara Martinez",
+    "role": "officer",
+    "shift": "Day",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  },
+  {
+    "id": "officer_004",
+    "name": "David Kim",
+    "role": "lead",
+    "shift": "Swing",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  },
+  {
+    "id": "officer_005",
+    "name": "Ella Chen",
+    "role": "officer",
+    "shift": "Swing",
+    "availability": ["Saturday", "Sunday"]
+  },
+  {
+    "id": "officer_006",
+    "name": "Frank Wright",
+    "role": "officer",
+    "shift": "Swing",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  },
+  {
+    "id": "officer_007",
+    "name": "Grace Patel",
+    "role": "lead",
+    "shift": "Night",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  },
+  {
+    "id": "officer_008",
+    "name": "Henry Wilson",
+    "role": "officer",
+    "shift": "Night",
+    "availability": ["Saturday", "Sunday"]
+  },
+  {
+    "id": "officer_009",
+    "name": "Isla Robinson",
+    "role": "flex",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Friday"]
+  },
+  {
+    "id": "officer_010",
+    "name": "Jack Thomas",
+    "role": "flex",
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  }
+]

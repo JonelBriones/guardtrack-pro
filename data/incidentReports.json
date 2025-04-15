@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "incident_001",
+    "siteId": "site_001",
+    "reportedBy": "officer_005",
+    "description": "Unauthorized entry attempt at rear door.",
+    "timeReported": "2025-04-12T22:30:00Z",
+    "status": "Under Investigation",
+    "resolvedBy": null
+  }
+]

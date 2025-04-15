@@ -1,0 +1,10 @@
+[
+  {
+    "_id": "shift_2025_04_13_site001",
+    "siteId": "site_001",
+    "date": "2025-04-13",
+    "shiftType": "Day",
+    "assignedOfficerIds": ["officer_002", "officer_005", "officer_006"],
+    "notes": "Briefing at 07:45 sharp"
+  }
+]
